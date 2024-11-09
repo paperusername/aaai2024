@@ -1,0 +1,21 @@
+name: 'yourname'
+namelist: 'names'
+preference:
+  risk: 'preference of risk'
+financial_situation: 'normal'
+credit_rating: 'unrated'
+investall: 0
+investigation: true
+investasset: "Asset1"
+wealth:
+  cash: 10
+  total_wealth: 10
+  borrowing_interest_rate: 0.08
+  lending_interest_rate: 0.2
+interaction:
+  total_steps: 16
+  step: 0
+  request_to_borrow_from_institution: True
+  object:
+    borrowing_counterpart: 0
+    lending_counterpart: 0

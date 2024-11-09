@@ -1,0 +1,13 @@
+{
+    "high_risk": false,
+    "medium_risk": false,
+    "low_risk": false,
+    "request_to_borrow_from_agent": false,
+    "request_to_borrow_from_planner": true,
+    "accept_loan_request": true,
+    "borrowing_interest_rate_agent": 0.05,
+    "borrowing_interest_rate_planner": 0.05,
+    "lending_interest_rate": 0.1,
+    "borrowing_agent": "nobody",
+    "lending_agent": "nobody"
+  }

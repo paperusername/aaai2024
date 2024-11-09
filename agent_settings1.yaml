@@ -1,0 +1,45 @@
+preference:
+  risk:  #  风险偏好
+    - risk-averse
+    - risk-neutral
+    - risk-loving
+  consumption:  #  消费偏好
+    - high
+    - medium
+    - low
+financial_situation:    #  财务状况：是否破产
+  - normal
+  - bankrupt
+credit_rating:    #  信用评级（social planner）给出的
+  - excellent
+  - fair
+  - poor
+wealth:   #  财富
+  cash: 100   #  现金流
+  non-cash_wealth_agent: 0    #  非现金资产（智能体）
+  non-cash_wealth_planner: 0  #  非现金资产（组织者）
+  total_wealth: 0   #  总资产（以上三者的和）
+  borrowing_interest_rate_agent: 0  #  贷款利率上限（从别人处借）
+  borrowing_interest_rate_planner: 0  #  贷款利率上限（从组织者处借）
+  lending_interest_rate: 0    #  借款利率（借给别人）
+  loan_amount: 0    #  贷款总量（从别人处借）
+  lend_amount: 0    #  借款总量（借给别人）
+  repayment_amount_agent: 0   #  还款总额（还给别人）
+  repayment_amount_planner: 0   #  还款总额（还给组织者）
+interacion:
+  borrowers: 'names'    #  贷款人名单（从别人处借），还款可以注销
+  lenders: 'names'    #  借款人名单（借给别人）
+  perstep:
+      request: True   #  是否要求借款（从别人处借）
+      accept: True    #  是否同意借款
+      demandpayment: True   #  是否要求还款（要求别人还）
+      object:
+        borrowing_agent: 0    #  贷款人（从别人处借）
+        lending_agent: 0    #  借款人（借给别人）
+        repayment_agent: 0    #  还款人（还给别人）
+        demandpayment_agent: 0    #  要求还款人（要帐）
+      money:
+        borrowing_money: 0    #  贷款金额（从别人处借）
+        lending_money: 0    #  借款金额（借给别人）
+        repayment_money: 0    #  还款金额（还给别人）
+        demandpayment_money: 0    #  要账金额

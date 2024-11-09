@@ -1,0 +1,40 @@
+name: 'yourname'
+namelist: 'names'
+preference:
+  risk: 'preference of risk'
+  consumption: 'consumtion level'
+financial_situation: 'normal'
+credit_rating: 'unrated'
+wealth:
+  cash: 100
+  non-cash_wealth_agent: 0
+  non-cash_wealth_planner: 0
+  total_wealth: 100
+  borrowing_interest_rate_agent: 0.1
+  borrowing_interest_rate_planner: 0
+  lending_interest_rate: 0.05
+  loan_amount: 0
+  lend_amount: 0
+  repayment_amount_agent: 0
+  repayment_amount_planner: 0
+interaction:
+  total_steps: 80
+  step: 0
+  borrowers: 'names'
+  lenders: 'names'
+  perstep:
+      request: True
+      accept: True
+      demandpayment: True
+      object:
+        borrowing_agent: 0
+        repayment_agent: 0
+        demandpayment_agent: 0
+      money:
+        borrowing_money: 10
+        lending_money: 0
+        repayment_money: 0
+        demandpayment_money: 0
+        borrowing_money_planner: 0
+        repayment_money_planner: 0
+        

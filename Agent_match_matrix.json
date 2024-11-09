@@ -1,0 +1,65 @@
+{
+    "Agent1": 
+    {
+      "lender": "Agent2",
+      "borrower": "Agent3",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent2": 
+    {
+      "lender": "Agent3",
+      "borrower": "Agent5",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent3": 
+    {
+      "lender": "Agent2",
+      "borrower": "Agent6",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent4": 
+    {
+      "lender": "Agent8",
+      "borrower": "Agent5",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent5": 
+    {
+      "lender": "Agent2",
+      "borrower": "Agent9",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent6": 
+    {
+      "lender": "Agent3",
+      "borrower": "Agent9",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent7": 
+    {
+      "lender": "Agent1",
+      "borrower": "Agent9",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.1
+    },
+    "Agent8": 
+    {
+      "lender": "Agent5",
+      "borrower": "Agent6",
+      "lend_rate": 0.15,
+      "borrow_rate": 0.05
+    },
+    "Agent9": 
+    {
+      "lender": "Agent7",
+      "borrower": "Agent8",
+      "lend_rate": 0.13,
+      "borrow_rate": 0.12
+    },
+  }
